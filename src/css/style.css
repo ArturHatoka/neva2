@@ -72,9 +72,15 @@ body {
 .clr-blue {
   color: #0066CA; }
 
-.production-card img {
-  max-height: 215px;
-  width: auto; }
+.production-card {
+  border: 1px solid rgba(0, 0, 0, 0.26); }
+  .production-card:hover {
+    box-shadow: -2px 2px 8px 0 rgba(0, 0, 0, 0.71);
+    transition: .2s;
+    text-decoration: none; }
+  .production-card img {
+    max-height: 215px;
+    width: auto; }
 
 .black {
   color: #0e0e0e !important; }
@@ -172,3 +178,11 @@ tbody {
 
 .slick-prev {
   left: -35px; }
+
+.clr-white-shad {
+  color: white;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.61);
+  background: rgba(0, 0, 0, 0.2); }
+
+.gray {
+  color: #323232; }

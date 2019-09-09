@@ -96,6 +96,12 @@ $red-gradient: linear-gradient(#ff7846, #FF4500);
 
 .production{
   &-card{
+    border: 1px solid rgba(0, 0, 0, 0.26);
+    &:hover{
+      box-shadow: -2px 2px 8px 0 rgba(0, 0, 0, 0.71);
+      transition: .2s;
+      text-decoration: none;
+    }
     & img{
       max-height: 215px;
       width: auto;
@@ -207,4 +213,12 @@ tbody{
 }
 .slick-prev{
   left: -35px;
+}
+.clr-white-shad{
+  color: white;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.61);
+  background: rgba(0, 0, 0, 0.2);
+}
+.gray{
+  color: #323232;
 }
